@@ -19,14 +19,14 @@ it('Verifies that the Services link is functions as intended', () => {
 })
 
 it('Verifies that the About us header is functions as intended', () => {
-  cy.get('#main-nav > .bit-menu-post-id-15172 > a > span').click() //Clicks on the 'Services' header
+  cy.get('#main-nav > .bit-menu-post-id-15172 > a > span').click() //Clicks on the 'About us' header
 })
 
 it('Verifies that the Career link is functions as intended', () => {
-  cy.get('#main-nav > .bit-menu-post-id-17000 > a > span').click() //Clicks on the 'Services' header
+  cy.get('#main-nav > .bit-menu-post-id-17000 > a > span').click() //Clicks on the 'Career' header
 })
 
-it('Verifies that the Contact Us link is functions as intended', () => {
+it('Verifies that the Contact Us link is functions as intended', () => {   //Clicks on the 'Contact Us' header
   cy.get('#main-nav > .current-menu-item > a > span')
 })
 
